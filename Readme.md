@@ -6,7 +6,7 @@
 
 Eighth project of [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui)
 
-This project is an app that lets users learn about the missions and astronauts that formed NASA’s Apollo space program.
+This project is an application that lets users learn about the missions and astronauts that formed NASA’s Apollo space program.
 
 ## Development guidelines
 
