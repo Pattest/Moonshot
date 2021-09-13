@@ -12,6 +12,8 @@
 		273894B926EBBA3A001DC5A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273894B826EBBA3A001DC5A7 /* Assets.xcassets */; };
 		273894BC26EBBA3A001DC5A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273894BB26EBBA3A001DC5A7 /* Preview Assets.xcassets */; };
 		273894C426EBBA54001DC5A7 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 273894C326EBBA54001DC5A7 /* Readme.md */; };
+		27CE982B26EF3B4C003016B6 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 27CE982926EF3B4B003016B6 /* missions.json */; };
+		27CE982C26EF3B4C003016B6 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 27CE982A26EF3B4C003016B6 /* astronauts.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		273894BB26EBBA3A001DC5A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		273894BD26EBBA3A001DC5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		273894C326EBBA54001DC5A7 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = SOURCE_ROOT; };
+		27CE982926EF3B4B003016B6 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		27CE982A26EF3B4C003016B6 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		273894B326EBBA36001DC5A7 /* Moonshot */ = {
 			isa = PBXGroup;
 			children = (
+				27CE982D26EF3B52003016B6 /* Files */,
 				273894B426EBBA36001DC5A7 /* MoonshotApp.swift */,
 				273894B626EBBA36001DC5A7 /* ContentView.swift */,
 				273894B826EBBA3A001DC5A7 /* Assets.xcassets */,
@@ -70,6 +75,15 @@
 				273894BB26EBBA3A001DC5A7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		27CE982D26EF3B52003016B6 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				27CE982A26EF3B4C003016B6 /* astronauts.json */,
+				27CE982926EF3B4B003016B6 /* missions.json */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +145,8 @@
 			files = (
 				273894BC26EBBA3A001DC5A7 /* Preview Assets.xcassets in Resources */,
 				273894B926EBBA3A001DC5A7 /* Assets.xcassets in Resources */,
+				27CE982B26EF3B4C003016B6 /* missions.json in Resources */,
+				27CE982C26EF3B4C003016B6 /* astronauts.json in Resources */,
 				273894C426EBBA54001DC5A7 /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
